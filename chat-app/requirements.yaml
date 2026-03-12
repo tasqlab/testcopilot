@@ -1,0 +1,15 @@
+packages:
+  "date-fns": "For formatting timestamps like 'Today at 4:30 PM'"
+  "framer-motion": "For smooth UI animations, page transitions, and modal pop-ins"
+  "react-hook-form": "For form state management"
+  "@hookform/resolvers": "For Zod schema validation with forms"
+
+images:
+  - path: "artifacts/chat-app/public/images/login-hero.png"
+    description: "Dark, abstract cosmic landscape with deep purples, blues, and subtle neon pink glowing lines, high quality, soft digital art style suitable for a modern chat app background"
+    aspect_ratio: "16:9"
+
+notes:
+  - "Using Replit Auth for authentication via @workspace/replit-auth-web"
+  - "API calls use generated React Query hooks from @workspace/api-client-react"
+  - "WebSocket connection at /api/ws for real-time messaging and presence"
